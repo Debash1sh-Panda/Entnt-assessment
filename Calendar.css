@@ -1,0 +1,44 @@
+/* Calendar component styles */
+.calendar-container {
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.day {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.selected-day {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.order-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.order-item {
+  margin-bottom: 10px;
+}
+
+/* Add more styles as needed */
