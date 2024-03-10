@@ -1,0 +1,27 @@
+/* Dashboard component styles */
+.dashboard-container {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.metric {
+  margin-bottom: 10px;
+}
+
+.metric-label {
+  font-weight: bold;
+}
+
+.metric-value {
+  color: #007bff; /* Blue color for values */
+}
+
+/* Add more styles as needed */
